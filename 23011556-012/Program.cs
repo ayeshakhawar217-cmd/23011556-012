@@ -8,7 +8,7 @@ class Program {
         Console.WriteLine("\n\t\t ---- ASSIGNMENT 02 ---- \n");
 
         //Creating object for class Exercise1
-        Exercise1 obj = new Exercise1();
+       Exercise1 obj = new Exercise1();
         obj.Run();
 
         //Creating object for class Exercise2
@@ -37,6 +37,10 @@ class Program {
 
         //Creating object for class Exercise6
         Exercise8 obj7 = new Exercise8();
-        obj7.Run();
+        obj7.Run(); 
+
+        //Creating object for class Exercise6
+        Exercise9 obj8 = new Exercise9();
+        obj8.Run();
     }
 }

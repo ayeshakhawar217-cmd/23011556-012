@@ -27,10 +27,10 @@ namespace _23011556_012
 
             Console.WriteLine("\nYour Array: " + string.Join(", ", arr));
 
-            int min = arr[0];
-            int max = arr[0];
+            int min = arr[0]; //Variable to store minimum element
+            int max = arr[0];  //Variable to store maximum element
 
-            for(int i=1; i<arr.Length; i++)
+            for (int i=1; i<arr.Length; i++)
             {
                 if (arr[i] < min)
                 {

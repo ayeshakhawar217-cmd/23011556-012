@@ -15,8 +15,10 @@ namespace _23011556_012
             //Input number from user
             Console.WriteLine("\nEnter a Natural Number: ");
             int n = Convert.ToInt32(Console.ReadLine());
+            
             int sum = 0;
 
+            //Using loop to add the numbers
             for(int i = 1; i<=n; i++)
             {
 

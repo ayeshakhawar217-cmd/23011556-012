@@ -21,7 +21,6 @@ namespace _23011556_012
             //Using loop to add the numbers
             for(int i = 1; i<=n; i++)
             {
-
                 sum += i;
             }
 

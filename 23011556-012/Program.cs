@@ -1,9 +1,14 @@
-﻿using System;
+﻿using _23011556_012;
+using System;
 
 class Program { 
 
  static void Main(string[] args)
     {
-        Console.WriteLine("Assigment 02");
+        Console.WriteLine("\n\t\t ---- ASSIGNMENT 02 ---- \n");
+
+        //Creating object for class Exercise1
+        Exercise1 obj = new Exercise1();
+        obj.Run();
     }
 }

@@ -10,8 +10,9 @@ namespace _23011556_012
     {
         public void Run()
         {
+            Console.WriteLine("\n --- Exercise 01 ---");
             // Enter the number to be checked
-            Console.WriteLine("Enter a number: ");
+            Console.WriteLine("\nEnter a number: ");
             int num = Convert.ToInt32(Console.ReadLine());
 
             // If num is multiple of 2 then display Even

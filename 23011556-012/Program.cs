@@ -31,15 +31,15 @@ class Program {
         Exercise6 obj5 = new Exercise6();
         obj5.Run(); 
 
-        //Creating object for class Exercise6
+        //Creating object for class Exercise7
         Exercise7 obj6 = new Exercise7();
         obj6.Run(); 
 
-        //Creating object for class Exercise6
+        //Creating object for class Exercise8
         Exercise8 obj7 = new Exercise8();
         obj7.Run(); 
 
-        //Creating object for class Exercise6
+        //Creating object for class Exercise9
         Exercise9 obj8 = new Exercise9();
         obj8.Run();
     }

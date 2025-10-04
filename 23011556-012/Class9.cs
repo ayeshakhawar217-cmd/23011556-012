@@ -10,7 +10,7 @@ namespace _23011556_012
     {
         public void Run()
         {
-            Console.WriteLine("\n --- Exercise 09 ---");
+            Console.WriteLine("\n --- Exercise 09 - Counting Even/Odd ---");
             //Creating array of 10 elements
             int[] arr = new int[10];
 

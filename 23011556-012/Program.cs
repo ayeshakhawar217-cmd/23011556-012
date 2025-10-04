@@ -41,6 +41,10 @@ class Program {
 
         //Creating object for class Exercise9
         Exercise9 obj8 = new Exercise9();
-        obj8.Run();
+        obj8.Run(); 
+
+        //Creating object for class Exercise10
+        Exercise10 obj9 = new Exercise10();
+        obj9.Run();
     }
 }

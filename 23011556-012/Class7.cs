@@ -10,7 +10,7 @@ namespace _23011556_012
     {
         public void Run()
         {
-            Console.WriteLine("\n --- Exercise 07 ---");
+            Console.WriteLine("\n --- Exercise 07 - Reversing ---");
 
             //Input a number from user
             Console.WriteLine("\nEnter an Integer: ");

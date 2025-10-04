@@ -10,7 +10,7 @@ namespace _23011556_012
     {
         public void Run()
         {
-            Console.WriteLine("\n --- Exercise 04 ---");
+            Console.WriteLine("\n --- Exercise 04 - Natural Numbers Sum ---");
 
             //Input number from user
             Console.WriteLine("\nEnter a Natural Number: ");

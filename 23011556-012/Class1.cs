@@ -10,7 +10,7 @@ namespace _23011556_012
     {
         public void Run()
         {
-            Console.WriteLine("\n --- Exercise 01 ---");
+            Console.WriteLine("\n --- Exercise 01 - Even/Odd ---");
             // Enter the number to be checked
             Console.WriteLine("\nEnter a number: ");
             int num = Convert.ToInt32(Console.ReadLine());

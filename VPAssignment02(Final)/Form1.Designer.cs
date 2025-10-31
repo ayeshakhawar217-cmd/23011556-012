@@ -28,12 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            groupBox1 = new GroupBox();
+            label1 = new Label();
+            label2 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            button1 = new Button();
+            groupBox1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Location = new Point(198, 77);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(396, 304);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Login Form";
+            groupBox1.Enter += groupBox1_Enter;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(58, 85);
+            label1.Name = "label1";
+            label1.Size = new Size(91, 25);
+            label1.TabIndex = 0;
+            label1.Text = "Username";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(58, 142);
+            label2.Name = "label2";
+            label2.Size = new Size(87, 25);
+            label2.TabIndex = 1;
+            label2.Text = "Password";
+            label2.Click += label2_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(155, 85);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(150, 31);
+            textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(155, 142);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(150, 31);
+            textBox2.TabIndex = 3;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(177, 197);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 4;
+            button1.Text = "Login";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(groupBox1);
+            Name = "Form1";
+            Text = "Form1";
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private GroupBox groupBox1;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label2;
+        private Label label1;
+        private Button button1;
     }
 }

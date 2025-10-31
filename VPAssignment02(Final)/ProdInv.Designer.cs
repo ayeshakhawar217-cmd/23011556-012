@@ -1,6 +1,6 @@
 ﻿namespace VPAssignment02_Final_
 {
-    partial class Form3
+    partial class ProdInv
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -36,94 +35,104 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
+            textBox4 = new TextBox();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
-            // 
-            // button2
-            // 
-            button2.Location = new Point(331, 324);
-            button2.Name = "button2";
-            button2.Size = new Size(146, 34);
-            button2.TabIndex = 1;
-            button2.Text = "View Students";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(281, 47);
+            label1.Location = new Point(136, 65);
             label1.Name = "label1";
-            label1.Size = new Size(236, 25);
-            label1.TabIndex = 2;
-            label1.Text = "Adding Student Information";
-            label1.Click += label1_Click;
+            label1.Size = new Size(95, 25);
+            label1.TabIndex = 0;
+            label1.Text = "Product Id";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(227, 116);
+            label2.Location = new Point(149, 114);
             label2.Name = "label2";
-            label2.Size = new Size(94, 25);
-            label2.TabIndex = 3;
-            label2.Text = "Student Id";
+            label2.Size = new Size(59, 25);
+            label2.TabIndex = 1;
+            label2.Text = "Name";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(196, 162);
+            label3.Location = new Point(149, 160);
             label3.Name = "label3";
-            label3.Size = new Size(125, 25);
-            label3.TabIndex = 4;
-            label3.Text = "Student Name";
+            label3.Size = new Size(49, 25);
+            label3.TabIndex = 2;
+            label3.Text = "Price";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(209, 213);
+            label4.Location = new Point(136, 207);
             label4.Name = "label4";
-            label4.Size = new Size(110, 25);
-            label4.TabIndex = 5;
-            label4.Text = "Student Age";
+            label4.Size = new Size(80, 25);
+            label4.TabIndex = 3;
+            label4.Text = "Quantity";
             label4.Click += label4_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(327, 110);
+            textBox1.Location = new Point(252, 62);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 6;
+            textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(327, 156);
+            textBox2.Location = new Point(252, 108);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 7;
+            textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(325, 210);
+            textBox3.Location = new Point(252, 154);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(150, 31);
-            textBox3.TabIndex = 8;
+            textBox3.TabIndex = 6;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(252, 204);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(150, 31);
+            textBox4.TabIndex = 7;
             // 
             // button1
             // 
-            button1.Location = new Point(353, 275);
+            button1.Location = new Point(252, 253);
             button1.Name = "button1";
-            button1.Size = new Size(107, 34);
-            button1.TabIndex = 9;
-            button1.Text = "Save";
+            button1.Size = new Size(150, 70);
+            button1.TabIndex = 8;
+            button1.Text = "Add Product";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Form3
+            // button2
+            // 
+            button2.Location = new Point(252, 343);
+            button2.Name = "button2";
+            button2.Size = new Size(150, 34);
+            button2.TabIndex = 9;
+            button2.Text = "View Products";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // ProdInv
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(button1);
+            Controls.Add(textBox4);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -131,16 +140,14 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button2);
-            Name = "Form3";
-            Text = "Student System by Ayehsa";
-            Load += Form3_Load;
+            Name = "ProdInv";
+            Text = "ProdInv";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Button button2;
+
         private Label label1;
         private Label label2;
         private Label label3;
@@ -148,6 +155,8 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
+        private TextBox textBox4;
         private Button button1;
+        private Button button2;
     }
 }

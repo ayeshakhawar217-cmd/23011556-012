@@ -19,6 +19,9 @@ namespace VPAssignment02_Final_
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Cal c1 = new Cal();
+            c1.Show();
 
         }
 
@@ -27,6 +30,18 @@ namespace VPAssignment02_Final_
             this.Hide();
             Form3 f3 = new Form3();
             f3.Show();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProdInv pv1 = new ProdInv();
+            pv1.Show();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VPAssignment02_Final_
 {
-    public partial class Form3 : Form
+    public partial class ProdInv : Form
     {
-        public Form3()
+        public ProdInv()
         {
             InitializeComponent();
         }
@@ -22,34 +22,24 @@ namespace VPAssignment02_Final_
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Student std = new Student()
+            Product p = new Product()
             {
-                Id = int.Parse(textBox1.Text),
-                Name1 = textBox2.Text,
-                Age = int.Parse(textBox3.Text)
-
+                pId = int.Parse(textBox1.Text),
+                pName = textBox2.Text,
+                price = int.Parse(textBox3.Text),
+                Qty = int.Parse(textBox4.Text)
             };
-            StudentData.Students.Add(std);
-            MessageBox.Show("Students Added Successfully!");
 
+            Product.plist.Add(p);
+            MessageBox.Show("Product added successfully!");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
-        }
-
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
+            ProdView pv = new ProdView();
+            pv.Show();
         }
     }
 }
